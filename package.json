@@ -1,0 +1,57 @@
+{
+  "name": "@dobuki/dev-dependencies",
+  "module": "index.ts",
+  "type": "module",
+  "description": "Dev dependencies",
+  "version": "1.0.0",
+  "keywords": [
+    "bun",
+    "bunjs",
+    "typescript",
+    "template",
+    "npm",
+    "np",
+    "publish",
+    "git"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jacklehamster/dev-dependencies.git"
+  },
+  "homepage": "https://jacklehamster.github.io/dev-dependencies/",
+  "author": {
+    "name": "Jack Le Hamster",
+    "email": "jacklehamster@gmail.com"
+  },
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "scripts": {
+    "test": "bun test",
+    "auto-publish": "npm explore @dobuki/auto-publish -- bun run auto-publish \"$(pwd)\""
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@types/bun": "^1.1.1",
+    "@dobuki/auto-publish": "^1.0.7",
+    "@types/jest": "^29.5.6",
+    "@types/mocha": "^10.0.3",
+    "@types/react": "^18.3.2",
+    "bun": "^1.1.8",
+    "bun-types": "^1.1.8",
+    "jest": "^29.7.0",
+    "package-name-fixer": "^1.0.9",
+    "prettier": "^3.0.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.4.5"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
