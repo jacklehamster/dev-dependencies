@@ -1,0 +1,25 @@
+{
+  "fileCounts": {
+    "index.test.ts": {
+      "correctCount": 4,
+      "totalCount": 4
+    },
+    "index.ts": {
+      "correctCount": 2,
+      "totalCount": 2
+    },
+    "package.json": {
+      "correctCount": 0,
+      "totalCount": 0
+    },
+    "tsconfig.json": {
+      "correctCount": 0,
+      "totalCount": 0
+    }
+  },
+  "anys": [],
+  "percentage": 100,
+  "total": 6,
+  "covered": 6,
+  "uncovered": 0
+}
