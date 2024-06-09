@@ -3,7 +3,7 @@
   "module": "index.ts",
   "type": "module",
   "description": "Dev dependencies",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "keywords": [
     "bun",
     "bunjs",
